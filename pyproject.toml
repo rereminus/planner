@@ -1,7 +1,6 @@
 [tool.poetry]
 name = "planner"
 version = "0.1.0"
-description = ""
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.103.2"

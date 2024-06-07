@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS public.tasks
+(
+    id integer NOT NULL DEFAULT nextval('tasks_id_seq'::regclass),
+    title character varying COLLATE pg_catalog."default",
+    is_complete boolean,
+    CONSTRAINT tasks_pkey PRIMARY KEY (id)
+)
